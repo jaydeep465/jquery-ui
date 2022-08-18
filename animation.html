@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").animate({
+      left: '250px',
+    
+      height: '+=100px',
+      width: '+=100px'
+    });
+  });
+});
+</script> 
+</head>
+<body>
+
+<button>Start Animation</button>
+
+<p>hellooooo! heyyyyyyyyyyyyy!</p>
+
+<div style="background:#aa3535;height:100px;width:100px;position:absolute;"></div>
+<button id="BtnHide">Hide</button>&nbsp;&nbsp;<button id="BtnShow">Show</button><hr />
+        <button id="BtnToggle">Hide</button><hr />
+        <button id="BtnPlus" style="font-size:xx-large;"><b>+</b></button>&nbsp;&nbsp;<button id="BtnMinus" style="font-size:xx-large;"><b>-</b></button><hr />
+</body>
+</html>
+                                                             
